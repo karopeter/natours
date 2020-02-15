@@ -35,7 +35,7 @@ if (userDataForm)
     form.append('name', document.getElementById('name').value);
     form.append('email', document.getElementById('email').value);
     form.append('photo', document.getElementById('photo').files[0]);
-    console.log(form);
+    // console.log(form);
 
     // const name = document.getElementById('name').value;
     // const email = document.getElementById('email').value;
